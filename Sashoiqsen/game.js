@@ -9,7 +9,7 @@ class Rect{
     }
 
     draw(){
-        context.fillStyle = "black";
+        context.fillStyle = "Pink";
         context.fillRect(this.x, this.y, this.sizex, this.sizey);
     }
     
@@ -27,7 +27,7 @@ class Rect2{
     }
 
     draw(){
-        context.fillStyle = "black";
+        context.fillStyle = "Green";
         context.fillRect(this.x, this.y, this.sizex, this.sizey);
     }
     
