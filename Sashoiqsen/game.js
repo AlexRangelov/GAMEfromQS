@@ -93,7 +93,7 @@ function draw() {
         platformX=10000
        
         context.fillStlye="green"
-        context.font="70px Comic Sans MS";
+        context.font="1000px Comic Sans MS";
         context.fillText("Press r to try again ",100,250);
     }
     context.fillStyle="blue"
