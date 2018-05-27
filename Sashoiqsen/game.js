@@ -110,10 +110,15 @@ function keyup(key) {
     if(key==83 && direction==1 && myY==platformY+40){
         direction=0
     }
+
     // Show the pressed keycode in the console
     console.log("Pressed", key);
 };
-
+function keydown(key){
+    if(key==68){
+        myX=myX+2
+    }
+}
 function mouseup() {
     // Show coordinates of mouse on click
     console.log("Mouse clicked at", mouseX, mouseY);
