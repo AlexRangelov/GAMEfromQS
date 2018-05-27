@@ -93,12 +93,12 @@ function draw() {
         platformX=10000
        
         context.fillStlye="green"
-        context.font="1000px Comic Sans MS";
-        context.fillText("Press r to try again ",100,250);
+        context.font="100px Comic Sans MS";
+        context.fillText("You are Gay",100,250);
     }
-    context.fillStyle="blue"
+    context.fillStyle="Brown"
     context.fillRect(myX, myY, 30, 30);
-    context.fillStyle="gray"
+    context.fillStyle="Black"
     context.fillRect(platformX, platformY, 1000, 40);
     context.fillRect(platform2X, platform2Y, 1000, 40);
 };
@@ -110,15 +110,10 @@ function keyup(key) {
     if(key==83 && direction==1 && myY==platformY+40){
         direction=0
     }
-
     // Show the pressed keycode in the console
     console.log("Pressed", key);
 };
-function keydown(key){
-    if(key==68){
-        myX=myX+2
-    }
-}
+
 function mouseup() {
     // Show coordinates of mouse on click
     console.log("Mouse clicked at", mouseX, mouseY);
